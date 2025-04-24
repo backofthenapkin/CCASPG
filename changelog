@@ -1,0 +1,24 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
+## [Unreleased]
+- Added `highlightMostSocialDogsByWeek()` to show weekly leaders by dog overlap minutes.
+- Refactored `outputPlaygroupOverlapHeatmap()` for accuracy and conditional formatting.
+- Resolved Session tab field position issues (StartPG/StopPG adjustments).
+- Integrated `updateActivityLog()` with named range `DogDates` to improve row syncing.
+- Initial Git structure with `/docs`, `/images`, `/src`, `/sheets`.
+
+## [0.1.0] – 2025-04-20
+### Added
+- Initial dashboard functions implemented: dog log tracking, activity log updates.
+- `removeActivityLogDuplicates()` implemented for row cleanup.
+- Started modularizing Apps Script code by domain.
+
+---
+
